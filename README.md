@@ -13,7 +13,7 @@ It has following functionalities:
 8. Add vector icons for controls
 
 ## Example
-//image
+![](https://github.com/haripatel-mobio/react-native-increment-decrement-ui/blob/master/preview.png?raw=true)
 
 ## Installation
 if you have already install react-native-elements and react-native-vector-icons
