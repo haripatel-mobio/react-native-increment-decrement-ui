@@ -24,33 +24,7 @@ class App extends React.Component {
         <StatusBar barStyle={'light-content'} />
         <View style={{alignSelf: 'center'}}>
           <Text style={{alignSelf: 'center', fontSize: 20, marginBottom: 8}}>Default: Without any properties</Text>
-          <IncrementDecrementView 
-            /* value={this.state.value}
-            incrementDecrementBy={5}
-            minValue={-10}
-            maxValue={10}
-            buttonSize={50}
-            // incrementDisable={true}
-            incrementTapHandler={() => {
-              this.setState({ value: this.state.value + 1 })
-            }}
-            decrementTapHandler={() => {
-              this.setState({ value: this.state.value - 1 })
-            }}
-            // isSwipeControl={true}
-            // incrementStyle={{
-            //   backgroundColor: 'red'
-            // }}
-            valueStyle={{
-              fontSize: 24
-            }}
-            decrementIcon={
-              <Icon name="user-minus" size={16} color="#FFF" />
-            }
-            incrementIcon={
-              <Icon name="user-plus" size={16} color="#FFF" />
-            } */
-          />
+          <IncrementDecrementView />
           <Text style={{alignSelf: 'center', fontSize: 20, marginBottom: 8, marginTop: 12}}>Add: value, minValue, maxValue properties</Text>
           <IncrementDecrementView 
             value={this.state.value1}
